@@ -1,0 +1,56 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="blackBox"> 
+                    <h4 id="Player1ScoreBoard">0</h4>
+                </div>
+
+                <div class="container">
+                    <div>
+                        <button onclick="P1add1pt()"> +1PT </button>    
+                    </div>
+                    
+                    <div>
+                        <button onclick="P1add2pts()"> +2PT </button>                    
+                    </div>
+                    
+                    <div>
+                        <button onclick="P1add3pts()"> +3PT </button>                    
+                    </div>
+                </div>
+            </div>
+            
+            <div>
+                <h3>GUEST</h3>
+                <div class="blackBox"> 
+                    <h4 id="Player2ScoreBoard">0</h4>                    
+                </div>
+            
+                <div class="container">
+                    <div>
+                        <button onclick="P2add1pt()"> +1PT </button>    
+                    </div>
+                    
+                    <div>
+                        <button onclick="P2add2pts()"> +2PT </button>                    
+                    </div>
+                    
+                    <div>
+                        <button onclick="P2add3pts()"> +3PT </button>                    
+                    </div>
+                </div> 
+            </div>
+        </div>
+        
+        <div class="reset">
+            <button class="resetButton" onclick="resetGame()">NEW GAME</button>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>
